@@ -24,8 +24,11 @@ class NBAScore(BaseScore):
         for line in bs.select('#teams_active .full_table'):
             a = line.select('.left a')[0]
             abbr = a.get('href').split('/')[2]
-            name = a.text.strip().split()
+            name = a.text.strip().rsplit(' ', 1)
             self.teams[abbr] = name
+
+        # Hack
+        self.teams['POR'] = ['Portland', 'Trail Blazers']
 
     def get_game(self):
         r = requests.get(NBA_SCORES_URL)
@@ -66,6 +69,11 @@ class NBAScore(BaseScore):
             players = []
             header = chart.select('tr')[0]
             team = header.select('td')[0].text.strip().split()[-1]
+            
+            # Hack again
+            if team == 'Blazers':
+                team = 'Trail Blazers'
+
             abbr = [key for key in self.teams.keys() \
                     if self.teams[key][1] == team][0]
             
