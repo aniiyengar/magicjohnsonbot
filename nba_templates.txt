@@ -1,0 +1,15 @@
+[winner.players.1.name] played like a superstar scoring [winner.players.1.pts] in a victory over the [winner.team.city] [winner.team.name].
+[winner.players.1.name]...wow wow WOW. What a game, scoring [winner.players.1.pts] to carry the [winner.team.name] over the [loser.team.name]!
+I've always liked [winner.players.1.name] and want to congratulate the [winner.team.name] for beating the [loser.team.name], [winner.score] - [loser.score]!
+[winner.players.1.name] had a huge game for the [winner.team.name] with [winner.players.1.pts] over the [loser.team.name]. What an incredible day in the NBA!
+The [loser.team.city] [loser.team.name] can only blame themselves for losing to the [winner.team.name] with poor execution on both sides of the ball.
+Wow I just watched one of the best games of the year. [winner.players.1.name] had [winner.players.1.pts] and carried the [winner.team.name] past [loser.players.1.name] and the [loser.team.name]. Congrats!
+[winner.team.city] showed why they are one of the greatest and most entertaining teams of all time. [winner.players.1.pts] and [winner.players.2.pts] were splendid, and [winner.players.3.pts] showed the world again why he's one of the best in the game.
+[winner.players.1.name] is not only one of the greatest scorers we've ever seen, he is one of the greatest clutch players the game has ever seen. [winner.players.1.pts] to lead his [winner.team.name] over the [loser.team.city] [loser.team.name]...Incredible!
+I can't forget matchups like [winner.players.1.name] vs [loser.players.1.name], [loser.players.2.name] vs [winner.players.2.name], and [loser.players.3.name] vs [winner.players.3.name]... Classics!
+[winner.players.1.name]'s [winner.players.1.pts] points had the [loser.team.name] on ice skates! He led his [winner.team.name] to a victory.
+[winner.players.1.name] has really caught my eye with [winner.players.1.pts] points in this game against [loser.team.name]!
+[winner.players.1.name] -- WOW! He had a team-high [winner.players.1.pts] points to send his [winner.team.name] over the [loser.team.name].
+Tonight the [winner.team.name] won against the [loser.team.name] led by [winner.players.1.name] with [winner.players.1.pts] points. Their defense was outstanding and the [winner.team.name] bench outplayed the [loser.team.name] bench.
+What a game! [winner.players.1.name], [winner.players.2.name], and [winner.players.3.name] versus [loser.players.1.name] and [loser.players.2.name].
+I've had a great day watching the NBA today! The [winner.team.name] played terrific against the [loser.team.name] and showed us why they are one of the NBA's elite teams.
