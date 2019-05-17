@@ -1,12 +1,15 @@
 
 from nba import NBAScore
 import twitter
-import os
+import sys
 import json
 
 if __name__ == '__main__':
 
-	with open('api_keys.json') as f:
+	if len(sys.argv) <= 1:
+		sys.exit()
+
+	with open(sys.argv[1]) as f:
 		keys = json.loads(f.read())
 
 	api = twitter.Api(
