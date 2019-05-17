@@ -3,7 +3,7 @@ from base import BaseScore
 import requests
 from bs4 import BeautifulSoup
 
-NBA_SCORES_URL = 'https://www.usatoday.com/sports/nba/scores/2019/05/15/'
+NBA_SCORES_URL = 'https://www.usatoday.com/sports/nba/scores/'
 NBA_TEAMS_URL = 'https://www.basketball-reference.com/teams/'
 
 class NBAScore(BaseScore):
