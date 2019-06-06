@@ -2,6 +2,7 @@
 from base import BaseScore
 import requests
 from bs4 import BeautifulSoup
+import datetime, pytz
 
 NBA_SCORES_URL = 'https://www.usatoday.com/sports/nba/scores/'
 NBA_TEAMS_URL = 'https://www.basketball-reference.com/teams/'
@@ -47,6 +48,15 @@ class NBAScore(BaseScore):
 
         bs = BeautifulSoup(r.text, 'html.parser')
         info = {}
+
+        day = bs.select('.headline-wrapper .details p:first-child')[0]
+        tz = pytz.timezone('America/Los_Angeles')
+        new_d = pytz.utc.localize(datetime.datetime.today())
+        new_d = new_d.astimezone(tz)
+        day_str = new_d.strftime("%A, %B %d")
+
+        if day.text.strip() != day_str:
+            return None
 
         details = bs.select('.teams-wrapper .details')[0]
         for loc in ['home', 'away']:
