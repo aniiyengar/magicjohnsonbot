@@ -14,7 +14,7 @@ if __name__ == '__main__':
         keys = json.loads(f.read())
 
     api = Twitter(
-        auth=(
+        auth=OAuth(
             keys['access_key'],
             keys['access_secret'],
             keys['consumer_key'],
@@ -22,4 +22,3 @@ if __name__ == '__main__':
         )
     )
     api.statuses.update(status=NBAScore().get_status())
-    print(NBAScore().get_status())
