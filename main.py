@@ -1,6 +1,7 @@
+#!venv/bin/python3
 
 from nba import NBAScore
-import twitter
+from twitter import *
 import sys
 import json
 
@@ -12,10 +13,12 @@ if __name__ == '__main__':
     with open(sys.argv[1]) as f:
         keys = json.loads(f.read())
 
-    api = twitter.Api(
-        consumer_key=keys['consumer_key'],
-        consumer_secret=keys['consumer_secret'],
-        access_token_key=keys['access_key'],
-        access_token_secret=keys['access_secret'])
-
-    api.PostUpdate(NBAScore().get_status())
+    api = Twitter(
+        auth=(
+            keys['access_key'],
+            keys['access_secret'],
+            keys['consumer_key'],
+            keys['consumer_secret']
+        )
+    )
+    api.statuses.update(status=NBAScore().get_status())
