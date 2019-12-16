@@ -21,4 +21,12 @@ if __name__ == '__main__':
             keys['consumer_secret']
         )
     )
-    api.statuses.update(status=NBAScore().get_status())
+
+    if len(sys.argv) >= 3:
+        commit_type = sys.argv[2]
+        if commit_type == 'print':
+            commit_fn = print
+        else:
+            commit_fn = lambda x: api.statuses.update(status=x)
+
+    commit_fn(NBAScore().get_status())

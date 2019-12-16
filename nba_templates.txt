@@ -1,4 +1,4 @@
-[winner.players.1.name] played like a superstar scoring [winner.players.1.pts] in a victory over the [winner.team.city] [winner.team.name].
+[winner.players.1.name] played like a superstar scoring [winner.players.1.pts] in a victory over the [loser.team.city] [loser.team.name].
 [winner.players.1.name]...wow wow WOW. What a game, scoring [winner.players.1.pts] to carry the [winner.team.name] over the [loser.team.name]!
 I've always liked [winner.players.1.name] and want to congratulate the [winner.team.name] for beating the [loser.team.name], [winner.score] - [loser.score]!
 [winner.players.1.name] had a huge game for the [winner.team.name] with [winner.players.1.pts] over the [loser.team.name]. What an incredible day in the NBA!
@@ -38,3 +38,10 @@ Great win by the [winner.team.name] against the [loser.team.name]. [winner.playe
 The [loser.team.name] scored [loser.score], but the [winner.team.name] scored [winner.score] and won - [winner.players.1.name] came up CLUTCH with [winner.players.1.pts] points!
 What a win by the [winner.team.city] [winner.team.name] - a true team effort! Huge game by [loser.players.1.name], but he couldn't outdo [winner.players.1.name] and company - one of the best games all year.
 If you're the [loser.team.city] [loser.team.name], you can't win if you score [loser.score] but your opponent scores [winner.score]! Good game from [loser.players.1.name], but better all-around performance from [winner.players.1.name] and friends.
+Two of the best teams in the NBA, the [winner.team.name] and the [loser.team.name], played an exciting game and the [winner.team.name] came out on top [winner.score]-[loser.score]!
+[winner.players.1.name] played great with [winner.players.1.pts] points and [winner.players.1.reb] rebounds with [winner.players.1.ast] assists.
+The [winner.team.name] and [loser.team.name] are both great teams!
+With a win against the [loser.team.name], the [winner.team.name] will silence their doubters about their ability to win.
+The [loser.team.name] were cold and the [winner.team.name] win tonight [winner.score]-[loser.score].
+[winner.players.1.name] put on an absolute SHOW tonight scoring [winner.players.1.pts]-[winner.players.1.reb]-[winner.players.1.ast] in the win over the [loser.team.name]! This was a confidence builder and statement win for the [winner.team.name]!
+Very exciting win for [winner.team.city] over the [loser.team.name]!! [winner.players.1.name] scored a team-high [winner.players.1.pts]!
