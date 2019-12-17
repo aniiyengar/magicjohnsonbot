@@ -6,7 +6,6 @@ import sys
 import json
 
 if __name__ == '__main__':
-
     if len(sys.argv) <= 1:
         sys.exit()
 
@@ -29,4 +28,7 @@ if __name__ == '__main__':
         else:
             commit_fn = lambda x: api.statuses.update(status=x)
 
-    commit_fn(NBAScore().get_status())
+    try:
+        commit_fn(NBAScore().get_status())
+    except:
+        print('No NBA games yet!')

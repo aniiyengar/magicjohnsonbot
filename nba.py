@@ -1,7 +1,6 @@
 
 from base import BaseScore
 import requests
-from bs4 import BeautifulSoup
 import datetime, pytz
 import json
 import random
