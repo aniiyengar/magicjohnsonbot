@@ -12,7 +12,7 @@ def root():
     except:
         s = 'No NBA games yet!'
 
-    return '<p style="font-size: 24px;">' + s + '</p>'
+    return '<p style="font-size: 24px;margin:40px;">' + s + '<br/><br/><a href="/">Generate Another</a></p>'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
